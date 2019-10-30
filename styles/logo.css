@@ -1,0 +1,32 @@
+html,
+body,
+ul,
+li,
+button,
+input,
+textarea,
+p,
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+  outline: none; }
+
+li {
+  list-style: none; }
+
+.link {
+  text-decoration: none;
+  -webkit-transition: 0.2s;
+  transition: 0.2s; }
+  .link:hover {
+    color: #d5c5aa; }
+
+button {
+  border: none; }
+
+.logo {
+  width: 115px; }
+
+/*# sourceMappingURL=logo.css.map */

@@ -1,0 +1,85 @@
+html,
+body,
+ul,
+li,
+button,
+input,
+textarea,
+p,
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+  outline: none; }
+
+li {
+  list-style: none; }
+
+.link {
+  text-decoration: none;
+  -webkit-transition: 0.2s;
+  transition: 0.2s; }
+  .link:hover {
+    color: #d5c5aa; }
+
+button {
+  border: none; }
+
+.testimonians {
+  padding: 106px 250px 69px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.person {
+  width: 200px;
+  text-align: center;
+  margin-right: 65px; }
+  .person:last-child {
+    margin-right: 0; }
+  .person__photo {
+    width: 150px;
+    border-radius: 50%; }
+  .person__name {
+    margin-top: 12px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px; }
+  .person__position {
+    font-style: italic;
+    font-weight: normal; }
+  .person__quote {
+    position: relative;
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 24px; }
+  .person .semicolons__img {
+    display: block;
+    width: 43px;
+    height: 92px;
+    position: absolute;
+    background-image: url(../images/quotes.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: -42px;
+    top: -30px; }
+
+@media screen and (max-width: 1259px) {
+  .testimonians {
+    padding: 10px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .person {
+    margin: 20px 0 0; } }
+
+/*# sourceMappingURL=testimonians-section.css.map */

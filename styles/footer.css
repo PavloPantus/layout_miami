@@ -1,0 +1,42 @@
+html,
+body,
+ul,
+li,
+button,
+input,
+textarea,
+p,
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+  outline: none; }
+
+li {
+  list-style: none; }
+
+.link {
+  text-decoration: none;
+  -webkit-transition: 0.2s;
+  transition: 0.2s; }
+  .link:hover {
+    color: #d5c5aa; }
+
+button {
+  border: none; }
+
+.footer {
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: -1;
+  bottom: 0;
+  height: 540px;
+  background: url(../images/footer.jpg);
+  background-size: cover;
+  background-position: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 369px; }
+
+/*# sourceMappingURL=footer.css.map */

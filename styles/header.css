@@ -1,0 +1,91 @@
+html,
+body,
+ul,
+li,
+button,
+input,
+textarea,
+p,
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+  outline: none; }
+
+li {
+  list-style: none; }
+
+.link {
+  text-decoration: none;
+  -webkit-transition: 0.2s;
+  transition: 0.2s; }
+  .link:hover {
+    color: #d5c5aa; }
+
+button {
+  border: none; }
+
+.header {
+  height: 765px;
+  background: url("../images/header.jpg");
+  background-size: cover;
+  background-position: center;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-top: 35px;
+  padding-bottom: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .header__logo {
+    margin-left: calc(50% - 115px / 2); }
+  .header__top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: white; }
+    @media screen and (max-width: 1259px) {
+      .header__top {
+        width: 100%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; }
+        .header__top .header__logo {
+          margin: 0;
+          margin-bottom: 20px; } }
+  .header__phone {
+    margin: 47px 82px 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px; }
+    .header__phone .phone__link {
+      color: white; }
+  .header__link {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px dashed;
+    display: block;
+    margin-top: 47px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s; }
+    .header__link:hover {
+      color: #d5c5aa; }
+
+/*# sourceMappingURL=header.css.map */

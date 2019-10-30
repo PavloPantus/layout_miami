@@ -1,0 +1,75 @@
+html,
+body,
+ul,
+li,
+button,
+input,
+textarea,
+p,
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+  outline: none; }
+
+li {
+  list-style: none; }
+
+.link {
+  text-decoration: none;
+  -webkit-transition: 0.2s;
+  transition: 0.2s; }
+  .link:hover {
+    color: #d5c5aa; }
+
+button {
+  border: none; }
+
+.consultation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 145px 162px; }
+  .consultation__container {
+    margin-right: 72px;
+    max-width: 480px; }
+  .consultation__heading {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 24px; }
+  .consultation__info {
+    font-size: 16px;
+    line-height: 24px; }
+
+@media screen and (max-width: 1259px) {
+  .consultation {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .consultation__container {
+      margin: 25px 0 0;
+      -ms-flex-negative: 1;
+          flex-shrink: 1; }
+    .consultation__heading {
+      text-align: center;
+      -ms-flex-negative: 1;
+          flex-shrink: 1; }
+    .consultation__info {
+      text-align: center;
+      -ms-flex-negative: 1;
+          flex-shrink: 1; }
+    .consultation__form {
+      margin-top: 20px; } }
+
+/*# sourceMappingURL=consultation-section.css.map */

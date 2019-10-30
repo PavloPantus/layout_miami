@@ -1,0 +1,84 @@
+html,
+body,
+ul,
+li,
+button,
+input,
+textarea,
+p,
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+  outline: none; }
+
+li {
+  list-style: none; }
+
+.link {
+  text-decoration: none;
+  -webkit-transition: 0.2s;
+  transition: 0.2s; }
+  .link:hover {
+    color: #d5c5aa; }
+
+button {
+  border: none; }
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 384px;
+  min-width: 300px; }
+
+.input {
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  max-width: 384px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 36px;
+  padding: 11px 4px 7px;
+  background-color: #eee;
+  text-align: center;
+  margin-bottom: 8px;
+  border: none;
+  -webkit-transition: 0.2s;
+  transition: 0.2s; }
+  .input:last-child {
+    text-transform: uppercase;
+    background-color: #00aaef;
+    color: white;
+    cursor: pointer; }
+    .input:last-child:hover {
+      background-color: #2f80ed; }
+  .input::-webkit-input-placeholder {
+    text-align: center;
+    text-transform: uppercase;
+    color: black; }
+  .input::-moz-placeholder {
+    text-align: center;
+    text-transform: uppercase;
+    color: black; }
+  .input:-ms-input-placeholder {
+    text-align: center;
+    text-transform: uppercase;
+    color: black; }
+  .input::-ms-input-placeholder {
+    text-align: center;
+    text-transform: uppercase;
+    color: black; }
+  .input::placeholder {
+    text-align: center;
+    text-transform: uppercase;
+    color: black; }
+
+/*# sourceMappingURL=form.css.map */

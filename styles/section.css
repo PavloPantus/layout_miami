@@ -1,0 +1,73 @@
+html,
+body,
+ul,
+li,
+button,
+input,
+textarea,
+p,
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+  outline: none; }
+
+li {
+  list-style: none; }
+
+.link {
+  text-decoration: none;
+  -webkit-transition: 0.2s;
+  transition: 0.2s; }
+  .link:hover {
+    color: #d5c5aa; }
+
+button {
+  border: none; }
+
+.section {
+  position: relative;
+  background-color: #eee; }
+
+.section:nth-child(even) {
+  background-color: white; }
+
+.section__heading {
+  position: absolute;
+  top: -0.5em;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 48px;
+  text-transform: uppercase; }
+  .section__heading::before, .section__heading::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -20px;
+    height: 2px;
+    width: 38%;
+    background-color: #00aaef; }
+  .section__heading::before {
+    left: 0; }
+  .section__heading::after {
+    right: 0; }
+  .section__heading .heading__crown {
+    position: absolute;
+    display: block;
+    width: 23px;
+    height: 16px;
+    background-image: url(../images/crown.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    bottom: -20px;
+    left: calc(50% - 13px); }
+  @media screen and (max-width: 1259px) {
+    .section__heading {
+      position: relative;
+      top: 0;
+      font-size: 30px; } }
+
+/*# sourceMappingURL=section.css.map */
