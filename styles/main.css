@@ -103,7 +103,8 @@ button {
   border: none; }
 
 .header {
-  height: 765px;
+  height: 100vh;
+  min-height: 765px;
   background: url("../images/header.jpg");
   background-size: cover;
   background-position: center;
@@ -120,7 +121,9 @@ button {
           flex-direction: column;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between; }
+          justify-content: space-between;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
   .header__logo {
     margin-left: calc(50% - 115px / 2); }
   .header__top {
@@ -816,7 +819,8 @@ button {
   position: sticky;
   z-index: -1;
   bottom: 0;
-  height: 540px;
+  height: 100vh;
+  min-height: 540px;
   background: url(../images/footer.jpg);
   background-size: cover;
   background-position: center;
