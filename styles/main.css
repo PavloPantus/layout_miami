@@ -104,7 +104,6 @@ button {
 
 .header {
   height: 100vh;
-  min-height: 765px;
   background: url("../images/header.jpg");
   background-size: cover;
   background-position: center;
@@ -143,7 +142,11 @@ button {
                 align-items: center; }
         .header__top .header__logo {
           margin: 0;
-          margin-bottom: 20px; } }
+          margin-bottom: 20px; }
+      .header__top .header__phone {
+        margin: 0; }
+      .header__top .header__link {
+        margin: 20px 0 0; } }
   .header__phone {
     margin: 47px 82px 0;
     font-style: normal;
@@ -820,7 +823,6 @@ button {
   z-index: -1;
   bottom: 0;
   height: 100vh;
-  min-height: 540px;
   background: url(../images/footer.jpg);
   background-size: cover;
   background-position: center;
